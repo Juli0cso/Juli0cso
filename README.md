@@ -2,7 +2,7 @@
 **Engenharia da Computação | Desenvolvimento Backend e DevOps**
 
 ### Resumo Profissional
-Estudante do 7º semestre de Engenharia da Computação no CEUB, atuando como estagiário de Desenvolvimento Backend e DevOps na Defensoria Pública do Distrito Federal (DPDF) em Brasília. Especializado na construção de arquiteturas de software utilizando Java e ecossistema Spring Boot, com foco no desenvolvimento de APIs REST e microsserviços integrados a bancos de dados SQL. Possui ampla experiência na otimização de fluxos corporativos através de automação com n8n, web scraping e administração de infraestrutura ágil.
+Estudante do 8º semestre de Engenharia da Computação no CEUB, atuando como estagiário de Desenvolvimento Backend e DevOps na Defensoria Pública do Distrito Federal (DPDF) em Brasília. Especializado na construção de arquiteturas de software utilizando Java e ecossistema Spring Boot, com foco no desenvolvimento de APIs REST e microsserviços integrados a bancos de dados SQL. Possui ampla experiência na otimização de fluxos corporativos através de automação com n8n, web scraping e administração de infraestrutura ágil.
 
 Além da atuação em engenharia de software tradicional, o portfólio técnico engloba o desenvolvimento de sistemas embarcados e robótica, projetando arquiteturas com microcontroladores Arduino e ESP32-S3-CAM para aplicações de visão computacional, como identificação de objetos e cores. Também projeta e gerencia pipelines de dados e automação, integrando rotinas de sistemas com APIs de plataformas como Telegram, TikTok e YouTube.
 
