@@ -1,112 +1,97 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ED8B00,100:1e2327&height=120&section=header" alt="Banner" />
+# Júlio César Sousa Oliveira
 
-<h1>Júlio César Sousa</h1>
+**Engenharia da Computação | Desenvolvimento Backend Java | IA e LLMs**
 
-<h3>Desenvolvedor Java | Backend & DevOps</h3>
-
-<img src="./assets/java-cup.svg" width="130" alt="Xícara de café Java com vapor animado" />
-
-<a href="https://github.com/Juli0cso">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=ED8B00&center=true&vCenter=true&width=640&lines=Java+%E2%98%95+%7C+Spring+Boot;APIs+REST+%26+Microsservi%C3%A7os;Automa%C3%A7%C3%A3o+com+n8n+%7C+Docker+%7C+Linux;Engenharia+da+Computa%C3%A7%C3%A3o+%40+CEUB" alt="Typing SVG" />
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1500&color=ED8B00&center=true&vCenter=true&width=640&height=32&lines=Desenvolvedor+Backend+Java;Spring+Boot+%7C+APIs+REST+%7C+Microsservi%C3%A7os;LLMs+%7C+Agentes+de+IA+%7C+Automa%C3%A7%C3%A3o+com+n8n" alt="Desenvolvedor Backend Java, Spring Boot, APIs REST, LLMs e automação com n8n" />
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juli0cso)
-[![Gmail](https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jc.nizuu@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/juli0.cso)
+<a href="https://clubedaeconomia.tech/">Clube da Economia</a> &nbsp;|&nbsp;
+<a href="https://julio-cesar.dev/">Portfólio</a> &nbsp;|&nbsp;
+<a href="https://www.linkedin.com/in/juli0cso">LinkedIn</a> &nbsp;|&nbsp;
+<a href="mailto:jc.nizuu@gmail.com">E-mail</a>
 
 </div>
 
 ---
 
-## 👨‍💻 Sobre mim
+## Sobre
 
-Estudante do **8º semestre de Engenharia da Computação no CEUB** e estagiário de **Desenvolvimento Backend e DevOps na Defensoria Pública do Distrito Federal (DPDF)**, em Brasília.
+Estudante do 8º semestre de Engenharia da Computação no UniCEUB e estagiário de Desenvolvimento Backend Java e DevOps na Defensoria Pública do Distrito Federal (DPDF), em Brasília.
 
-Meu foco é **Java**: construo APIs REST e microsserviços com **Spring Boot**, integrados a bancos de dados **SQL**, e otimizo fluxos corporativos com automação (**n8n**), web scraping e infraestrutura ágil.
-
-Fora do backend tradicional, também trabalho com **sistemas embarcados e visão computacional** (Arduino e ESP32-S3-CAM) e com **pipelines de dados e automação** integrando APIs como Telegram, TikTok e YouTube.
+Trabalho principalmente com **Java e Spring Boot**, construindo APIs REST e microsserviços integrados a bancos SQL. Também trabalho bastante com **LLMs e IA generativa**: uso no dia a dia para desenvolvimento e automação, e em agentes e fluxos com n8n que conectam sistemas, APIs e rotinas de dados.
 
 ---
 
-## ☕ Stack principal
+## Projeto principal
 
-<div align="center">
+### Clube da Economia (Loja_ML) &nbsp;·&nbsp; [clubedaeconomia.tech](https://clubedaeconomia.tech/)
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_APIs-02569B?style=for-the-badge&logo=postman&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+Plataforma de ofertas para o consumidor brasileiro. Reúne promoções da Amazon e do Mercado Livre, com histórico de preços e link direto para a loja oficial. O backend em Java integra-se com o Mercado Livre e com fluxos de automação em n8n.
 
-</div>
+| Camada | Tecnologias |
+| :-- | :-- |
+| Backend | Java 17, Spring Boot 3, Spring Data JPA, Bean Validation |
+| Banco de dados | PostgreSQL |
+| Frontend | React, Vite, Tailwind CSS |
+| Infraestrutura | Docker, Docker Compose, n8n |
 
-### 🧰 Outras tecnologias
+O código-fonte fica em repositório privado.
+
+---
+
+## Tecnologias
 
 | Área | Tecnologias |
 | :-- | :-- |
-| **Linguagens** | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![C](https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white) ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=FFD43B) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| **DevOps e Infraestrutura** | ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white) ![n8n](https://img.shields.io/badge/-n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white) |
-| **Embarcados e IoT** | ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=flat-square&logo=arduino&logoColor=white) ![ESP32](https://img.shields.io/badge/-ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white) |
+| Linguagens | Java (principal), Python, C/C++, C#, JavaScript, TypeScript |
+| Backend | Spring Boot, APIs REST, microsserviços, SQL, web scraping |
+| IA e automação | LLMs e IA generativa, agentes de IA, n8n |
+| DevOps e infraestrutura | Docker, Git e GitHub, Linux, Shell Script |
+| Hardware e IoT | Arduino, ESP32, ESP32-S3-CAM (visão computacional) |
 
 ---
 
-## 🎯 Áreas de foco
+## Experiência
 
-- 🏛️ **Sistemas corporativos:** rotinas backend, manutenção de aplicações estruturadas e automação de fluxos de dados para infraestrutura governamental.
-- 🤖 **Automação e integrações:** pipelines de distribuição de conteúdo e integrações de marketing digital com n8n e APIs externas.
-- 📷 **Robótica e IA embarcada:** hardware + software para análise visual em tempo real (identificação de objetos e cores).
+- **Estagiário de Desenvolvimento Backend Java e DevOps, DPDF** (02/2026 até hoje)
+  Sistemas e rotinas corporativas em Java com Spring Boot, APIs e microsserviços com bancos SQL, e automação de fluxos de trabalho com n8n.
+- **Estagiário de TI, Tribunal Superior do Trabalho (TST)** (01/2026 a 02/2026)
+  Suporte técnico, infraestrutura de redes e demandas internas de tecnologia.
+- **Estagiário de Suporte de TI e Desenvolvimento, B2G** (01/2025 a 06/2025)
+  Desenvolvimento em Java e Python para soluções corporativas internas e suporte a usuários.
 
 ---
 
-## 🚀 Projetos em destaque
+## Outros projetos
 
 | Projeto | Descrição | Tecnologia |
 | :-- | :-- | :-: |
-| [**API Sistema de Estoque**](https://github.com/Juli0cso/API-Sistema-de-estoque-C-Sharp) | API para controle de estoque | ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=csharp&logoColor=white) |
-| [**Portfólio**](https://github.com/Juli0cso/portfolio) | Meu portfólio pessoal | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| [**blmg2**](https://github.com/Juli0cso/blmg2) | Projeto web | ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white) |
+| [Portfólio](https://julio-cesar.dev/) ([código](https://github.com/Juli0cso/portfolio)) | Site pessoal com formação e atuação em backend | TypeScript |
+| [API Sistema de Estoque](https://github.com/Juli0cso/API-Sistema-de-estoque-C-Sharp) | API para controle de estoque | C# |
+| Visão computacional embarcada | Identificação de objetos e cores com ESP32-S3-CAM | C/C++ |
 
 ---
 
-## 📊 Estatísticas do GitHub
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Juli0cso&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Estatísticas do GitHub" />
-<img height="170" src="https://streak-stats.demolab.com?user=Juli0cso&theme=tokyonight&hide_border=true" alt="Sequência de contribuições" />
-
-</div>
-
----
-
-## 👾 Contribuições
+## Atividade no GitHub
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Juli0cso/Juli0cso/output/pacman-contribution-graph-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Juli0cso/Juli0cso/output/pacman-contribution-graph.svg" />
-  <img alt="Pac-Man comendo o gráfico de contribuições" src="https://raw.githubusercontent.com/Juli0cso/Juli0cso/output/pacman-contribution-graph.svg" />
+  <img alt="Gráfico de contribuições animado" src="https://raw.githubusercontent.com/Juli0cso/Juli0cso/output/pacman-contribution-graph.svg" />
 </picture>
 
 </div>
 
 ---
 
-## 📫 Vamos conversar?
+## Contato
 
-Estou aberto a conversas sobre **desenvolvimento backend com Java, automação e oportunidades de estágio/carreira**.
-
-- 💼 **LinkedIn:** [linkedin.com/in/juli0cso](https://www.linkedin.com/in/juli0cso)
-- 📧 **E-mail:** [jc.nizuu@gmail.com](mailto:jc.nizuu@gmail.com)
-- 📍 **Localização:** Brasília - DF
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e2327,100:ED8B00&height=100&section=footer&animation=fadeIn" alt="Rodapé" />
-
-</div>
+- LinkedIn: [linkedin.com/in/juli0cso](https://www.linkedin.com/in/juli0cso)
+- E-mail: [jc.nizuu@gmail.com](mailto:jc.nizuu@gmail.com)
+- Portfólio: [julio-cesar.dev](https://julio-cesar.dev/)
+- Localização: Brasília, DF
