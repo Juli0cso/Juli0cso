@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ED8B00,100:1e2327&height=220&section=header&text=J%C3%BAlio%20C%C3%A9sar%20Sousa&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=Desenvolvedor%20Java%20%7C%20Backend%20%26%20DevOps&descSize=20&descAlignY=60&animation=fadeIn" alt="Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ED8B00,100:1e2327&height=220&section=header&text=J%C3%BAlio%20C%C3%A9sar%20Sousa&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=Desenvolvedor%20Java%20%7C%20Backend%20%26%20DevOps&descSize=20&descAlignY=60" alt="Banner" />
 
 <img src="./assets/java-cup.svg" width="130" alt="Xícara de café Java com vapor animado" />
 
