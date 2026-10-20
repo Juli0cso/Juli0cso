@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250" role="img" aria-labelledby="t">
+  <title id="t">Clube da Economia, plataforma de ofertas. Abre clubedaeconomia.tech</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#131a24"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFC15E"/>
+      <stop offset="1" stop-color="#ED8B00"/>
+    </linearGradient>
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ED8B00" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFC15E" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ED8B00" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ED8B00" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ED8B00" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="round"><rect x="0.5" y="0.5" width="999" height="249" rx="14"/></clipPath>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, "Segoe UI", Helvetica, Arial, "DejaVu Sans", sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "DejaVu Sans Mono", monospace; }
+    .shine { animation: slide 6s linear infinite; }
+    @keyframes slide { from { transform: translateX(-400px); } to { transform: translateX(1000px); } }
+    .line { stroke-dasharray: 240; animation: draw 8s ease-in-out infinite; }
+    @keyframes draw { 0% { stroke-dashoffset: 240; } 35%, 90% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: 240; } }
+    .dots { animation: dots 8s ease-in-out infinite; }
+    @keyframes dots { 0%, 25% { opacity: 0; } 40%, 90% { opacity: 1; } 100% { opacity: 0; } }
+  </style>
+
+  <rect x="0.5" y="0.5" width="999" height="249" rx="14" fill="url(#bg)" stroke="#30363d"/>
+  <g clip-path="url(#round)">
+    <rect width="6" height="250" fill="url(#accent)"/>
+    <rect class="shine" x="0" y="0" width="400" height="3" fill="url(#shimmer)"/>
+  </g>
+
+  <text class="mono" x="40" y="46" font-size="12" letter-spacing="3" fill="#ED8B00">PROJETO PRINCIPAL</text>
+  <text class="sans" x="40" y="88" font-size="34" font-weight="700" fill="#f0f6fc">Clube da Economia</text>
+  <text class="mono" x="40" y="112" font-size="13" fill="#79c0ff">clubedaeconomia.tech&#160;&#160;·&#160;&#160;Loja_ML</text>
+
+  <text class="sans" x="40" y="146" font-size="15" fill="#9ba7b4">Plataforma de ofertas para o consumidor brasileiro. Reúne promoções</text>
+  <text class="sans" x="40" y="166" font-size="15" fill="#9ba7b4">da Amazon e do Mercado Livre, com histórico de preços e link direto</text>
+  <text class="sans" x="40" y="186" font-size="15" fill="#9ba7b4">para a loja oficial.</text>
+
+  <g class="mono" font-size="12" text-anchor="middle" fill="#c9d1d9">
+    <rect x="40" y="206" width="72" height="26" rx="13" fill="#161b22" stroke="#30363d"/><text x="76" y="223">Java 17</text>
+    <rect x="122" y="206" width="116" height="26" rx="13" fill="#161b22" stroke="#30363d"/><text x="180" y="223">Spring Boot 3</text>
+    <rect x="248" y="206" width="94" height="26" rx="13" fill="#161b22" stroke="#30363d"/><text x="295" y="223">PostgreSQL</text>
+    <rect x="352" y="206" width="58" height="26" rx="13" fill="#161b22" stroke="#30363d"/><text x="381" y="223">React</text>
+    <rect x="420" y="206" width="65" height="26" rx="13" fill="#161b22" stroke="#30363d"/><text x="452" y="223">Docker</text>
+    <rect x="495" y="206" width="44" height="26" rx="13" fill="#161b22" stroke="#30363d"/><text x="517" y="223">n8n</text>
+  </g>
+
+  <circle cx="946" cy="46" r="20" fill="none" stroke="#30363d"/>
+  <path d="M938 54L954 38M945 38H954V47" fill="none" stroke="#ED8B00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M780 118L810 132L840 126L870 148L900 142L930 164L958 158V190H780Z" fill="url(#area)"/>
+  <path class="line" d="M780 118L810 132L840 126L870 148L900 142L930 164L958 158" fill="none" stroke="#ED8B00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g class="dots" fill="#FFC15E">
+    <circle cx="810" cy="132" r="3"/><circle cx="870" cy="148" r="3"/><circle cx="930" cy="164" r="3"/>
+  </g>
+  <text class="mono" x="780" y="212" font-size="11" fill="#6e7681">histórico de preços</text>
+</svg>
