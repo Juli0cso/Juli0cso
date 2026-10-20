@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-labelledby="t">
+  <title id="t">Júlio César Sousa Oliveira, desenvolvedor backend Java</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f14"/>
+      <stop offset="0.6" stop-color="#101722"/>
+      <stop offset="1" stop-color="#1a1409"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ED8B00"/>
+      <stop offset="1" stop-color="#FFC15E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.15" r="0.65">
+      <stop offset="0" stop-color="#ED8B00" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#ED8B00" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+    <clipPath id="round"><rect width="1000" height="280" rx="18"/></clipPath>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, "Segoe UI", Helvetica, Arial, "DejaVu Sans", sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "DejaVu Sans Mono", monospace; }
+    .kw { fill: #ff7b72; }
+    .ty { fill: #79c0ff; }
+    .st { fill: #a5d6ff; }
+    .fn { fill: #d2a8ff; }
+    .tx { fill: #c9d1d9; }
+
+    .glow { animation: pulse 6s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 0.7; } 50% { opacity: 1; } }
+
+    .l1 { animation: a1 12s infinite; }
+    .l2 { animation: a2 12s infinite; }
+    .l3 { animation: a3 12s infinite; }
+    .l4 { animation: a4 12s infinite; }
+    .l5 { animation: a5 12s infinite; }
+    .l6 { animation: a6 12s infinite; }
+    @keyframes a1 { 0%, 5%  { opacity: 0; transform: translateX(-8px); } 8%,  92% { opacity: 1; transform: none; } 97%, 100% { opacity: 0; transform: translateX(-8px); } }
+    @keyframes a2 { 0%, 13% { opacity: 0; transform: translateX(-8px); } 16%, 92% { opacity: 1; transform: none; } 97%, 100% { opacity: 0; transform: translateX(-8px); } }
+    @keyframes a3 { 0%, 21% { opacity: 0; transform: translateX(-8px); } 24%, 92% { opacity: 1; transform: none; } 97%, 100% { opacity: 0; transform: translateX(-8px); } }
+    @keyframes a4 { 0%, 29% { opacity: 0; transform: translateX(-8px); } 32%, 92% { opacity: 1; transform: none; } 97%, 100% { opacity: 0; transform: translateX(-8px); } }
+    @keyframes a5 { 0%, 37% { opacity: 0; transform: translateX(-8px); } 40%, 92% { opacity: 1; transform: none; } 97%, 100% { opacity: 0; transform: translateX(-8px); } }
+    @keyframes a6 { 0%, 45% { opacity: 0; transform: translateX(-8px); } 48%, 92% { opacity: 1; transform: none; } 97%, 100% { opacity: 0; transform: translateX(-8px); } }
+
+    .cur { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 0%, 50% { opacity: 1; } 50.01%, 100% { opacity: 0; } }
+  </style>
+
+  <g clip-path="url(#round)">
+    <rect width="1000" height="280" fill="url(#bg)"/>
+    <rect width="1000" height="280" fill="url(#grid)"/>
+    <rect class="glow" width="1000" height="280" fill="url(#glow)"/>
+    <rect width="6" height="280" fill="url(#accent)"/>
+    <rect y="276" width="1000" height="4" fill="url(#accent)" opacity="0.55"/>
+
+    <text class="mono" x="56" y="74" font-size="13" letter-spacing="4" fill="#ED8B00">BACKEND DEVELOPER</text>
+    <text class="sans" x="56" y="138" font-size="54" font-weight="700" fill="#f0f6fc">Júlio César</text>
+    <text class="sans" x="56" y="196" font-size="54" font-weight="700" fill="url(#accent)">Sousa Oliveira</text>
+    <text class="sans" x="58" y="238" font-size="17" fill="#8b949e">Java&#160;&#160;·&#160;&#160;Spring Boot&#160;&#160;·&#160;&#160;LLMs e IA&#160;&#160;·&#160;&#160;Automação</text>
+
+    <rect x="600" y="38" width="364" height="204" rx="12" fill="#0d1117" stroke="#30363d"/>
+    <path d="M601 74H963" stroke="#30363d"/>
+    <circle cx="622" cy="56" r="5" fill="#ff5f56" opacity="0.85"/>
+    <circle cx="640" cy="56" r="5" fill="#ffbd2e" opacity="0.85"/>
+    <circle cx="658" cy="56" r="5" fill="#27c93f" opacity="0.85"/>
+    <text class="mono" x="690" y="60" font-size="12" fill="#8b949e">Julio.java</text>
+
+    <g class="l1"><text class="mono" x="624" y="106" font-size="13" xml:space="preserve"><tspan class="kw">public</tspan><tspan class="tx"> </tspan><tspan class="kw">class</tspan><tspan class="tx"> </tspan><tspan class="ty">Julio</tspan><tspan class="tx"> {</tspan></text></g>
+    <g class="l2"><text class="mono" x="624" y="130" font-size="13" xml:space="preserve"><tspan class="tx">  </tspan><tspan class="ty">String</tspan><tspan class="tx"> role  = </tspan><tspan class="st">&quot;Backend Java&quot;</tspan><tspan class="tx">;</tspan></text></g>
+    <g class="l3"><text class="mono" x="624" y="154" font-size="13" xml:space="preserve"><tspan class="tx">  </tspan><tspan class="ty">String</tspan><tspan class="tx"> stack = </tspan><tspan class="st">&quot;Spring Boot&quot;</tspan><tspan class="tx">;</tspan></text></g>
+    <g class="l4"><text class="mono" x="624" y="178" font-size="13" xml:space="preserve"><tspan class="tx">  </tspan><tspan class="ty">String</tspan><tspan class="tx"> ia    = </tspan><tspan class="st">&quot;LLMs e agentes&quot;</tspan><tspan class="tx">;</tspan></text></g>
+    <g class="l5"><text class="mono" x="624" y="202" font-size="13" xml:space="preserve"><tspan class="tx">  </tspan><tspan class="kw">void</tspan><tspan class="tx"> </tspan><tspan class="fn">build</tspan><tspan class="tx">() { </tspan><tspan class="fn">ship</tspan><tspan class="tx">(); }</tspan></text></g>
+    <g class="l6">
+      <text class="mono tx" x="624" y="226" font-size="13">}</text>
+      <rect class="cur" x="640" y="214" width="7" height="15" fill="#ED8B00"/>
+    </g>
+  </g>
+</svg>
