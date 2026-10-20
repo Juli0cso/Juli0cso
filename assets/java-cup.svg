@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 180" width="160" height="144" role="img" aria-label="Xícara de café Java com vapor animado">
+  <style>
+    .steam { fill: none; stroke: #ED8B00; stroke-width: 5; stroke-linecap: round; opacity: 0; }
+    .s1 { animation: rise 2.6s ease-in-out infinite; }
+    .s2 { animation: rise 2.6s ease-in-out infinite 0.7s; }
+    .s3 { animation: rise 2.6s ease-in-out infinite 1.4s; }
+    @keyframes rise {
+      0%   { opacity: 0;   transform: translateY(14px); }
+      30%  { opacity: 0.9; }
+      100% { opacity: 0;   transform: translateY(-16px); }
+    }
+    .cup { animation: bob 3s ease-in-out infinite; transform-origin: 100px 120px; }
+    @keyframes bob {
+      0%, 100% { transform: translateY(0); }
+      50%      { transform: translateY(-2px); }
+    }
+  </style>
+
+  <path class="steam s1" d="M80 60 C70 48, 90 40, 80 28"/>
+  <path class="steam s2" d="M100 62 C90 50, 110 42, 100 30"/>
+  <path class="steam s3" d="M120 60 C110 48, 130 40, 120 28"/>
+
+  <g class="cup">
+    <path d="M58 78 H142 V112 C142 138 124 152 100 152 C76 152 58 138 58 112 Z" fill="#ED8B00"/>
+    <path d="M142 88 H156 C170 88 170 120 154 120 H141" fill="none" stroke="#ED8B00" stroke-width="9" stroke-linecap="round"/>
+    <ellipse cx="100" cy="78" rx="42" ry="7" fill="#c97100"/>
+    <ellipse cx="100" cy="78" rx="34" ry="4.5" fill="#5b3a1a"/>
+    <path d="M70 90 C70 108 76 126 88 138" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="100" cy="162" rx="58" ry="7" fill="#1e2327" opacity="0.25"/>
+  </g>
+</svg>
